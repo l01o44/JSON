@@ -128,7 +128,3 @@ function getTime() {
     const minutes = String(getRandomNumber(0, 6)) + String(getRandomNumber(0, 10));
     return hours1 + hours2 + ":" + minutes;
 }
-
-
-
-
