@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <head>
     <title> transactions </title>
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" 
+            rel = "stylesheet" />
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
 </head>
 
 <body>
     <form>
-        <input type="button" id="generate" value="Сгенерировать">
-        <input type="button" id="calculate" value="Рассчитать">
+        <input type="button" id="btn-generate" value="Сгенерировать">
+        <input type="button" id="btn-calculate" value="Рассчитать">
+        <input type="button" id="btn-download" value="Скачать файл со сгенерированными записями">
     </form> <br>
 
     <div id="result"></div>
 
-    <script src = "js.js"></script>
+    <script src = "application.js"></script>
+    
+    <script src = "helper.js"></script>
+
 </body>
